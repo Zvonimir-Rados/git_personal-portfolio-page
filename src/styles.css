@@ -1,7 +1,7 @@
 body {
   padding: 0 20rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-color: black;
+  background-color: #1d1d1d;
   color: white;
   padding-bottom: 2rem;
 }
@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-size: 2.986rem;
+  color: #7b26e7;
 }
 h2 {
   font-size: 2.488rem;
@@ -24,4 +25,14 @@ p {
   font-size: 1.5rem;
   line-height: 1.2;
   word-spacing: 3px;
+}
+
+a {
+  color: #7b26e7;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  /* color: #5b1cae; */
+  color: #26805e;
 }
