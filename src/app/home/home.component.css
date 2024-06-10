@@ -30,6 +30,11 @@
   margin: 1rem 0;
 }
 
+.projects__heading,
+.projects__list-items {
+  color: #3ce693;
+}
+
 /* skills */
 
 .skills p {

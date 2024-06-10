@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HoverColorDirective } from './shared/hover-color.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     AboutMeComponent,
     ProjectsComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
+    HoverColorDirective
   ],
   imports: [
     BrowserModule,
